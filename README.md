@@ -1,10 +1,8 @@
 # Deceased-Debtor-Workflow-Case-Study
-
-# Overview
-This is an anonymized case study based on a real internal process improvement project in a financial services environment.
-The project focused on improving how deceased debtor cases were reported, validated, and processed between an internal operations team and partner banks.
-Previously, the process depended heavily on manual messages, scanned documents, email follow-ups, and direct status-code changes in an internal operating system. This created risks around data mismatch, weak traceability, manual error, and potential misuse of fake supporting documents.
-The solution was to move the process into a structured web-based workflow where partner banks could submit deceased debtor requests directly, attach supporting documents, and route the request through an approval process before the internal team made the final status update.
+## Executive Summary
+This anonymized case study is based on a real internal process improvement project in a financial-services environment.
+The project focused on improving how deceased debtor cases were reported, validated, approved, and monitored between partner banks and an internal operations team. The original process relied on manual messages, scanned documents, email follow-ups, and direct status-code changes, which created risks around data mismatch, weak traceability, manual error, and possible misuse of fake supporting documents.
+The proposed solution moved the process into a structured web-based workflow with partner-bank submission, document attachment, approval routing, internal validation, and final status update control.
 
 > **Confidentiality Note**
 > 
@@ -104,6 +102,17 @@ The workflow introduced stronger controls around data and document validation.
 | Request status tracking | Improves traceability and audit readiness |
 
 ---
+
+## How This Project Follows the V.E.R.I.F.Y. Framework
+
+| VERIFY Step | How It Appears in This Project |
+| --- | --- |
+| Validate | Debtor identity, bank information, claim status, and supporting documents are checked before approval. |
+| Examine | Manual request handling, email follow-ups, document gaps, and status-code risks are reviewed. |
+| Reconcile | Partner bank submissions are matched against internal debtor records and claim-related status information. |
+| Identify Signals | Fake documents, mismatched debtor data, unsupported requests, and irregular status changes are treated as risk signals. |
+| Flag and Escalate | Requests move through partner-bank and internal approval stages before final action. |
+| Yield Standards | The workflow creates a repeatable process for deceased debtor validation, monitoring, and audit review. |
 
 ## My Role
 
